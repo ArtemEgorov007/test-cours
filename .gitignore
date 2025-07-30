@@ -1,0 +1,34 @@
+# IDE files
+.idea
+.vscode
+
+# Dependencies
+/client/node_modules
+/server/node_modules
+
+# Client-specific files
+/client/.pnp
+/client/.pnp.js
+/client/.DS_Store
+/client/.env.local
+/client/.env.development.local
+/client/.env.test.local
+/client/.env.production.local
+/client/npm-debug.log*
+/client/yarn-debug.log*
+/client/yarn-error.log*
+
+# Server-specific files
+/server/.env
+/server/npm-debug.log*
+
+# Build files
+/build
+/client/build
+
+# Test coverage
+/coverage
+
+# Misc
+.DS_Store
+*.log
